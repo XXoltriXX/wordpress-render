@@ -17,7 +17,7 @@ services:
     volumes:
       - wordpress_data:/var/www/html
 
-  db:
+  mysql:
     image: mysql:5.7
     container_name: wordpress_db
     restart: always
